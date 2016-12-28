@@ -1,0 +1,12 @@
+kinase_SARfari=/$PWD filter="*.rb *.R *.js *.sass *.haml *.tsv" {
+ workflow.rb
+ lib=lib {
+  rbbt=rbbt{
+   sources=sources{
+    KinaseSARfari.rb
+   }
+  }
+ }
+}
+
+
